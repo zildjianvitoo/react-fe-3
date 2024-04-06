@@ -11,7 +11,7 @@ function App() {
     setNotes((prev) => [
       ...prev,
       {
-        id: new Date(),
+        id: +new Date(),
         title: title,
         description: description,
         isArchive: false,
